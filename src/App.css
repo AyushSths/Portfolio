@@ -1,0 +1,121 @@
+@import "tailwindcss";
+body {
+  background-color: #172132 ;
+  color: #ffff;
+  font-family: "League Spartan", sans-serif;
+}
+
+.show{
+  display: block;
+}
+
+.flex-show{
+  display: flex;
+}
+
+.ham-menu{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .show,.flex-show {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ham-menu {
+    display: block;
+  }
+}
+
+.title .role p span{
+  position: relative;
+  display: inline-block;
+  -webkit-text-stroke: .7px #3B82F6;
+  animation: display-text 10s linear infinite;
+  animation-delay: calc(-5s * var(--i));
+  
+}
+
+@keyframes display-text{
+  50%,100%{
+    display: none;
+  }
+}
+
+.title .role p span::before {
+  content: attr(data-text);
+  position: absolute;
+  width: 0;
+  border-right: 2px solid #3B82F6;
+  color:#3B82F6;
+  white-space: nowrap;
+  overflow:hidden;
+  animation: fill-text 5s linear infinite;
+}
+
+@keyframes fill-text{
+  10%,100%{
+    width: 0;
+  }
+
+  70%,90%{
+    width: 100%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.my-spin {
+  animation: spin 4s linear infinite;
+}
+
+.r-section .photo .img-border{
+  width: 580px;
+  height: 580px;
+}
+
+.r-section .photo .img-sec img{
+  width: 569px;
+  height: 577px;
+}
+
+@media (max-width: 786px) {
+  .r-section .photo .img-border{
+    width: 415px;
+    height: 415px;
+  }
+  .r-section .photo .img-sec img{
+    width: 401px;
+    height: 411px;
+  }
+}
+@media (max-width: 520px) {
+  .r-section .photo .img-border{
+    width: 280px;
+    height: 280px;
+  }
+  .r-section .photo .img-sec img{
+    width: 266px;
+    height: 276px;
+  }
+}
+
+
+.main-home .home{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1120px) {
+  .main-home .home{
+    flex-direction: column-reverse;
+  }
+}
