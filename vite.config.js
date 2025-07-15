@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()],
     // eslint-disable-next-line no-undef
-    base: process.env.VITE_BASE_PATH || '/Portfolio',
+    // base: process.env.VITE_BASE_PATH || '/Portfolio',
 })
