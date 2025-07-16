@@ -9,7 +9,7 @@ import photo from "../assets/images/photo-2.png"
 
 export default function Home() {
   return (
-    <div className='main-home max-w-[1480px] m-auto md:pt-75 pt-15 2xl:px-3 px-6'>
+    <div className='main-home max-w-[1480px] m-auto lg:pt-75 md:pt-25 pt-15 2xl:px-3 px-6'>
       <div className="home md:gap-x-[40px] gap-y-[10px]">
         <section className="l-section flex flex-col md:gap-y-6 gap-y-3 w-full">
             <div className="title">
@@ -94,12 +94,14 @@ export default function Home() {
             <div className="photo flex justify-center items-start relative lg:-top-45 -top-10">
                 <div className='img-border border-blue-500 border-r-[8px] border-l-[8px] border-double rounded-full drop-shadow-[0_0_35px_rgba(59,130,246,0.6)] overflow-y-hidden absolute my-spin'>
                 </div>
-                <div className="img-sec flex items-center justify-center overflow-hidden rounded-full z-10 drop-shadow-[0_0_10px_rgba(59,130,246,0.6)]">
-                    <img
-                        src={photo}
-                        alt="Ayush"
-                        className="object-cover relative top-10"
-                    />
+                <div className="img-sec flex items-center justify-center overflow-hidden rounded-full z-10 drop-shadow-[0_0_10px_rgba(30,64,175,0.6)]">
+                    <div className="absolute bottom-0 w-full h-2/3 bg-gradient-to-b from-transparent to-slate-950 z-10 pointer-events-none rounded-b-full" />                          
+                        {/* Image */}
+                        <img
+                            src={photo}
+                            alt="Ayush"
+                            className="object-cover relative z-0"
+                        />
                 </div>
             </div>
         </section>
