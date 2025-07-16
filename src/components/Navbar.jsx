@@ -1,5 +1,5 @@
 // import React, { useState } from 'react'
-import menu from "../assets/images/menu (1).png"
+import menu from "../assets/images/menu.png"
 import greater from "../assets/images/greater-than.png"
 import lesser from "../assets/images/less-than.png"
 
@@ -36,7 +36,7 @@ export default function Navbar({isOpen,setOpen,menuItems,isactive,setActive}) {
             </div>
             <div className="ham-menu cursor-pointer mr-3 ">
               <span onClick={()=>setOpen(!isOpen)} className=''>
-                <img src={menu} alt="menu" className='w-8 h-8'/>
+                <img src={menu} alt="menu" className='w-9 h-9'/>
               </span>
             </div>
         </div>

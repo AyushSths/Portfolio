@@ -38,7 +38,7 @@ body {
 }
 
 @keyframes display-text{
-  50%,100%{
+    50%,100%{
     display: none;
   }
 }
@@ -112,6 +112,10 @@ body {
   justify-content: left;
 }
 
+.l-section .title .role{
+  justify-content: left;
+}
+
 .l-section .btns{
   flex-direction: row;
 }
@@ -120,6 +124,11 @@ body {
   .l-section{
     align-items: center;
   }
+
+  .l-section .title .role{
+    justify-content: center;
+  }
+
   .l-section .btns{
     flex-direction: column-reverse;
   }

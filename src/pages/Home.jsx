@@ -14,10 +14,10 @@ export default function Home() {
         <section className="l-section flex flex-col md:gap-y-6 gap-y-3 w-full">
             <div className="title">
                 <div className="name">
-                    <span className='lg:text-7xl md:text-5xl text-3xl font-bold'>Ayush Shrestha</span>
+                    <span className='lg:text-7xl md:text-5xl text-4xl font-bold'>Ayush Shrestha</span>
                 </div>
-                <div className='role md:mt-2 mt-1'>
-                    <p className='lg:text-5xl md:text-2xl text-xl font-bold inline-block'>I'm a <span className='text-transparent' style={{ "--i": 2 }} data-text="Web Developer">Web Developer</span><span className='text-transparent' style={{ "--i": 1 }} data-text="Frontend Developer">Frontend Developer</span>  
+                <div className='role md:mt-2 mt-1 flex'>
+                    <p className='lg:text-5xl md:text-2xl text-xl font-bold inline-block'>I'm a <span className='text-transparent' style={{ "--i": 2 }} data-text="Web Developer">Web Developer</span><span className='text-transparent' style={{ "--i": 1 }} data-text="Frontend Developer">Frontend Developer</span>
                     </p>
                 </div>
             </div>
