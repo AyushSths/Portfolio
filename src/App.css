@@ -108,6 +108,23 @@ body {
   }
 }
 
+.l-section{
+  justify-content: left;
+}
+
+.l-section .btns{
+  flex-direction: row;
+}
+
+@media (max-width: 1120px) {
+  .l-section{
+    align-items: center;
+  }
+  .l-section .btns{
+    flex-direction: column-reverse;
+  }
+}
+
 
 .main-home .home{
   display: flex;
