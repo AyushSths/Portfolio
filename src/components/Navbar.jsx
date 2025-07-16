@@ -12,7 +12,7 @@ export default function Navbar({
 }) {
   return (
     <>
-      <div className="main-container">
+      <div className="nav-bar">
         <div className="nav-items flex items-center justify-between xl:px-2 px-3 py-6 max-w-[1480px] m-auto">
           <Logo />
           <MenuItems
