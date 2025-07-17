@@ -7,7 +7,7 @@ export default function Hirebtn() {
         <span className="relative z-10 transition duration-300 group-hover:text-white text-[18px]">
           Hire Me
         </span>
-        <span className="absolute inset-0 rounded-3xl bg-blue-500 origin-bottom scale-y-0 transition-transform duration-300 group-hover:scale-y-100 z-0" />
+        <span className="absolute inset-0 rounded-3xl bg-blue-600 origin-bottom scale-y-0 transition-transform duration-300 group-hover:scale-y-100 z-0" />
       </button>
     </div>
   );

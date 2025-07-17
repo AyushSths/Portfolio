@@ -44,8 +44,8 @@ export default function HamMenu({
               }}
               className={`transition hover:scale-105 cursor-pointer ${
                 isactive === item
-                  ? "text-blue-400 underline underline-offset-4 decoration-2"
-                  : "hover:text-blue-500"
+                  ? "text-blue-500 underline underline-offset-4 decoration-2"
+                  : "hover:text-blue-600"
               }`}
             >
               {item}

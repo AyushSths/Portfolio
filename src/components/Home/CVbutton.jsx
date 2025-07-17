@@ -4,7 +4,7 @@ import downloads from "../../assets/images/downloads.png";
 export default function CVbutton() {
   return (
     <div className="CV-btn inline-block">
-      <button className="group relative overflow-hidden px-5 py-2 rounded-3xl bg-blue-500 font-semibold text-black cursor-pointer border-2 border-blue-500 drop-shadow-[0_0_10px_rgba(59,130,246,0.6)]">
+      <button className="group relative overflow-hidden px-5 py-2 rounded-3xl bg-blue-600 font-semibold text-black cursor-pointer border-2 border-blue-600 drop-shadow-[0_0_10px_rgba(59,130,246,0.6)]">
         <a href="Ayush Resume.pdf" download="Ayush-Shrestha-CV.pdf">
           {/* Text fades out on hover */}
           <span className="relative z-10 transition duration-300 group-hover:opacity-0">

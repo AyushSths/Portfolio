@@ -9,14 +9,17 @@ export default function Lsection() {
   return (
     <section className="l-section flex flex-col md:gap-y-6 gap-y-3 w-full">
       <div className="title">
-        <div className="name">
+        <div className="name flex flex-col gap-y-2">
+          <p className="font-bold lg:text-5xl  md:text-3xl text-2xl ">
+            <span className="text-blue-600">Hello,</span> It's Me
+          </p>
           <span className="lg:text-7xl md:text-5xl text-4xl font-bold">
             Ayush Shrestha
           </span>
         </div>
-        <div className="role md:mt-2 mt-1 flex">
-          <p className="lg:text-5xl md:text-2xl text-xl font-bold inline-block">
-            I'm a{" "}
+        <div className="role md:mt-4 mt-1 flex">
+          <p className="lg:text-4xl md:text-2xl text-xl font-bold inline-block">
+            And I'm a{" "}
             <span
               className="text-transparent"
               style={{ "--i": 2 }}
@@ -36,12 +39,7 @@ export default function Lsection() {
       </div>
       <div className="des">
         <p className="lg:text-lg md:text-base text-sm">
-          Aspiring web developer actively seeking internship or entry-level
-          opportunities to begin my career in web development. Eager to apply my
-          technical skills and passion for building user-friendly, responsive
-          web applications in a professional setting. Looking forward to gaining
-          real-world experience and growing as a developer through hands-on work
-          and collaboration.
+         Hi, I'm an aspiring web developer with a strong passion for creating clean, responsive, and user-friendly websites. I'm actively seeking internship or entry-level opportunities where I can apply my skills, gain real-world experience, and grow as a developer through hands-on projects and collaborative work environments.
         </p>
       </div>
       <div className="btns flex lg:text-xl md:text-lg text-sm items-center gap-y-5 lg:gap-x-10">

@@ -32,7 +32,7 @@ body {
 .title .role p span {
   position: relative;
   display: inline-block;
-  -webkit-text-stroke: 0.7px #3b82f6;
+  -webkit-text-stroke: 0.7px #2563eb;
   animation: display-text 10s linear infinite;
   animation-delay: calc(-5s * var(--i));
 }
@@ -48,8 +48,8 @@ body {
   content: attr(data-text);
   position: absolute;
   width: 0;
-  border-right: 2px solid #3b82f6;
-  color: #3b82f6;
+  border-right: 2px solid #2563eb;
+  color: #2563eb;
   white-space: nowrap;
   overflow: hidden;
   animation: fill-text 5s linear infinite;
@@ -115,6 +115,10 @@ body {
   justify-content: left;
 }
 
+.l-section .title .name p{
+  text-align: left;
+}
+
 .l-section .title .role {
   justify-content: left;
 }
@@ -126,6 +130,10 @@ body {
 @media (max-width: 1120px) {
   .l-section {
     align-items: center;
+  }
+
+  .l-section .title .name p{
+    text-align: center;
   }
 
   .l-section .title .role {

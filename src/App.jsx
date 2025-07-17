@@ -17,7 +17,7 @@ function App() {
         {/* <div className={`${isOpen == true?'blur-sm':''} transition duration-300`}>
         <Navbar isOpen={isOpen} setOpen={setOpen} menuItems={menuItems} isactive={isactive} setActive={setActive} />
       </div> */}
-        <Loader/>
+        <Loader />
         <Navbar
           isOpen={isOpen}
           setOpen={setOpen}

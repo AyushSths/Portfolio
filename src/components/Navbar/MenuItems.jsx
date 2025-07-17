@@ -11,8 +11,8 @@ export default function MenuItems({ menuItems, isactive, setActive }) {
             className={`underline-animate transform transition duration-300 hover:scale-105 
                         ${
                           isactive === item
-                            ? "text-blue-400 underline rounded-1 underline-offset-5 decoration-[3px] after:scale-x-100"
-                            : "hover:text-blue-500"
+                            ? "text-blue-500 underline rounded-1 underline-offset-5 decoration-[3px] after:scale-x-100"
+                            : "hover:text-blue-600"
                         }`}
           >
             {item}
