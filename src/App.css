@@ -152,14 +152,13 @@ body {
   transform: translateY(-100%);
   animation: show-bars 0.8s ease-in-out forwards;
   animation-delay: calc(0.1s * var(--i));
-  background-color: #1e40af  ;
+  background-color: #1e40af;
 }
 
 @keyframes show-bars {
   100% {
     transform: translateY(0%);
-  background-color: #0f172b ;
-
+    background-color: #0f172b;
   }
 }
 
@@ -174,6 +173,7 @@ body {
   100% {
     visibility: visible;
     opacity: 1;
+    transform: translateX(0%);
   }
 }
 
@@ -184,3 +184,14 @@ body {
   animation-delay: 1.6s;
 }
 
+.main-home .l-section {
+  transform: translateX(-100%);
+  animation: show-content 0.6s linear forwards;
+  animation-delay: 1.6s;
+}
+
+.main-home .r-section {
+  transform: translateX(100%);
+  animation: show-content 0.6s linear forwards;
+  animation-delay: 1.6s;
+}
